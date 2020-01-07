@@ -61,7 +61,7 @@ function myFunc() {
       return;
     }
     setElem($(e.target));
-    console.log($dragging[0].nodeName);
+    //console.log($dragging[0].nodeName);
 
     return false;
   });
